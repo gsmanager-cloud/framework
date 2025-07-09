@@ -4,8 +4,8 @@
     "license": "MIT",
     "homepage": "https://gsmanager.ru",
     "support": {
-        "issues": "https://github.com/gsmanager/framework/issues",
-        "source": "https://github.com/gsmanager/framework"
+        "issues": "https://github.com/gsmanager-cloud/framework/issues",
+        "source": "https://github.com/gsmanager-cloud/framework"
     },
     "authors": [
         {
@@ -16,12 +16,12 @@
     "require": {
         "php": "^8.2",
         "psr/log": "^1.0|^2.0|^3.0",
-        "gsmanager-cloud/bus": "dev-main",
-        "gsmanager-cloud/collections": "dev-main",
-        "gsmanager-cloud/container": "dev-main",
-        "gsmanager-cloud/contracts": "dev-main",
-        "gsmanager-cloud/queue": "dev-main",
-        "gsmanager-cloud/support": "dev-main"
+        "gsmanager-cloud/bus": "v1",
+        "gsmanager-cloud/collections": "v1",
+        "gsmanager-cloud/container": "v1",
+        "gsmanager-cloud/contracts": "v1",
+        "gsmanager-cloud/queue": "v1",
+        "gsmanager-cloud/support": "v1"
     },
     "autoload": {
         "psr-4": {

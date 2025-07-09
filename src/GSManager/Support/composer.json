@@ -4,8 +4,8 @@
     "license": "MIT",
     "homepage": "https://gsmanager.ru",
     "support": {
-        "issues": "https://github.com/gsmanager/framework/issues",
-        "source": "https://github.com/gsmanager/framework"
+        "issues": "https://github.com/gsmanager-cloud/framework/issues",
+        "source": "https://github.com/gsmanager-cloud/framework"
     },
     "authors": [
         {
@@ -19,10 +19,10 @@
         "ext-filter": "*",
         "ext-mbstring": "*",
         "doctrine/inflector": "^2.0",
-        "gsmanager-cloud/collections": "dev-main",
-        "gsmanager-cloud/conditionable": "dev-main",
-        "gsmanager-cloud/contracts": "dev-main",
-        "gsmanager-cloud/macroable": "dev-main",
+        "gsmanager-cloud/collections": "v1",
+        "gsmanager-cloud/conditionable": "v1",
+        "gsmanager-cloud/contracts": "v1",
+        "gsmanager-cloud/macroable": "v1",
         "nesbot/carbon": "^3.8.4",
         "voku/portable-ascii": "^2.0.2"
     },
@@ -47,8 +47,8 @@
         }
     },
     "suggest": {
-        "gsmanager-cloud/filesystem": "Required to use the Composer class (dev-main).",
-        "gsmanager-cloud/serializable-closure": "Required to use the once function (^1.3|^2.0).",
+        "gsmanager-cloud/filesystem": "Required to use the Composer class (v1).",
+        "gsmanager-cloud/serializable-closure": "Required to use the once function (^1).",
         "league/commonmark": "Required to use Str::markdown() and Stringable::markdown() (^2.7).",
         "league/uri": "Required to use the Uri class (^7.5.1).",
         "ramsey/uuid": "Required to use Str::uuid() (^4.7).",

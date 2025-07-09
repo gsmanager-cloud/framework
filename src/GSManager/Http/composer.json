@@ -4,8 +4,8 @@
     "license": "MIT",
     "homepage": "https://gsmanager.ru",
     "support": {
-        "issues": "https://github.com/gsmanager/framework/issues",
-        "source": "https://github.com/gsmanager/framework"
+        "issues": "https://github.com/gsmanager-cloud/framework/issues",
+        "source": "https://github.com/gsmanager-cloud/framework"
     },
     "authors": [
         {
@@ -19,10 +19,10 @@
         "fruitcake/php-cors": "^1.3",
         "guzzlehttp/guzzle": "^7.8.2",
         "guzzlehttp/uri-template": "^1.0",
-        "gsmanager-cloud/collections": "dev-main",
-        "gsmanager-cloud/macroable": "dev-main",
-        "gsmanager-cloud/session": "dev-main",
-        "gsmanager-cloud/support": "dev-main",
+        "gsmanager-cloud/collections": "v1",
+        "gsmanager-cloud/macroable": "v1",
+        "gsmanager-cloud/session": "v1",
+        "gsmanager-cloud/support": "v1",
         "symfony/http-foundation": "^7.2.0",
         "symfony/http-kernel": "^7.2.0",
         "symfony/polyfill-php83": "^1.31",

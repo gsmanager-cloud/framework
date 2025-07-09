@@ -4,8 +4,8 @@
     "license": "MIT",
     "homepage": "https://gsmanager.ru",
     "support": {
-        "issues": "https://github.com/gsmanager/framework/issues",
-        "source": "https://github.com/gsmanager/framework"
+        "issues": "https://github.com/gsmanager-cloud/framework/issues",
+        "source": "https://github.com/gsmanager-cloud/framework"
     },
     "authors": [
         {
@@ -17,10 +17,10 @@
         "php": "^8.2",
         "ext-ctype": "*",
         "ext-session": "*",
-        "gsmanager-cloud/collections": "dev-main",
-        "gsmanager-cloud/contracts": "dev-main",
-        "gsmanager-cloud/filesystem": "dev-main",
-        "gsmanager-cloud/support": "dev-main",
+        "gsmanager-cloud/collections": "v1",
+        "gsmanager-cloud/contracts": "v1",
+        "gsmanager-cloud/filesystem": "v1",
+        "gsmanager-cloud/support": "v1",
         "symfony/finder": "^7.2.0",
         "symfony/http-foundation": "^7.2.0"
     },
@@ -35,7 +35,7 @@
         }
     },
     "suggest": {
-        "gsmanager-cloud/console": "Required to use the session:table command (dev-main)."
+        "gsmanager-cloud/console": "Required to use the session:table command (v1)."
     },
     "config": {
         "sort-packages": true

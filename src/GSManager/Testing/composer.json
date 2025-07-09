@@ -4,8 +4,8 @@
     "license": "MIT",
     "homepage": "https://gsmanager.ru",
     "support": {
-        "issues": "https://github.com/gsmanager/framework/issues",
-        "source": "https://github.com/gsmanager/framework"
+        "issues": "https://github.com/gsmanager-cloud/framework/issues",
+        "source": "https://github.com/gsmanager-cloud/framework"
     },
     "authors": [
         {
@@ -16,10 +16,10 @@
     "require": {
         "php": "^8.2",
         "ext-mbstring": "*",
-        "gsmanager-cloud/collections": "dev-main",
-        "gsmanager-cloud/contracts": "dev-main",
-        "gsmanager-cloud/macroable": "dev-main",
-        "gsmanager-cloud/support": "dev-main"
+        "gsmanager-cloud/collections": "v1",
+        "gsmanager-cloud/contracts": "v1",
+        "gsmanager-cloud/macroable": "v1",
+        "gsmanager-cloud/support": "v1"
     },
     "autoload": {
         "psr-4": {
@@ -33,9 +33,9 @@
     },
     "suggest": {
         "brianium/paratest": "Required to run tests in parallel (^7.0|^8.0).",
-        "gsmanager-cloud/console": "Required to assert console commands (dev-main).",
-        "gsmanager-cloud/database": "Required to assert databases (dev-main).",
-        "gsmanager-cloud/http": "Required to assert responses (dev-main).",
+        "gsmanager-cloud/console": "Required to assert console commands (v1).",
+        "gsmanager-cloud/database": "Required to assert databases (v1).",
+        "gsmanager-cloud/http": "Required to assert responses (v1).",
         "mockery/mockery": "Required to use mocking (^1.6).",
         "phpunit/phpunit": "Required to use assertions and run tests (^10.5.35|^11.5.3|^12.0.1)."
     },

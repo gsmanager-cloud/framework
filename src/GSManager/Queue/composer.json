@@ -4,8 +4,8 @@
     "license": "MIT",
     "homepage": "https://gsmanager.ru",
     "support": {
-        "issues": "https://github.com/gsmanager/framework/issues",
-        "source": "https://github.com/gsmanager/framework"
+        "issues": "https://github.com/gsmanager-cloud/framework/issues",
+        "source": "https://github.com/gsmanager-cloud/framework"
     },
     "authors": [
         {
@@ -15,15 +15,15 @@
     ],
     "require": {
         "php": "^8.2",
-        "gsmanager-cloud/collections": "dev-main",
-        "gsmanager-cloud/console": "dev-main",
-        "gsmanager-cloud/container": "dev-main",
-        "gsmanager-cloud/contracts": "dev-main",
-        "gsmanager-cloud/database": "dev-main",
-        "gsmanager-cloud/filesystem": "dev-main",
-        "gsmanager-cloud/pipeline": "dev-main",
-        "gsmanager-cloud/support": "dev-main",
-        "gsmanager-cloud/serializable-closure": "^1.3|^2.0",
+        "gsmanager-cloud/collections": "v1",
+        "gsmanager-cloud/console": "v1",
+        "gsmanager-cloud/container": "v1",
+        "gsmanager-cloud/contracts": "v1",
+        "gsmanager-cloud/database": "v1",
+        "gsmanager-cloud/filesystem": "v1",
+        "gsmanager-cloud/pipeline": "v1",
+        "gsmanager-cloud/support": "v1",
+        "gsmanager-cloud/serializable-closure": "^1",
         "ramsey/uuid": "^4.7",
         "symfony/process": "^7.2.0"
     },

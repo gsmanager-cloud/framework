@@ -4,8 +4,8 @@
     "license": "MIT",
     "homepage": "https://gsmanager.ru",
     "support": {
-        "issues": "https://github.com/gsmanager/framework/issues",
-        "source": "https://github.com/gsmanager/framework"
+        "issues": "https://github.com/gsmanager-cloud/framework/issues",
+        "source": "https://github.com/gsmanager-cloud/framework"
     },
     "keywords": ["gsmanager", "database", "sql", "orm"],
     "authors": [
@@ -18,12 +18,12 @@
         "php": "^8.2",
         "ext-pdo": "*",
         "brick/math": "^0.11|^0.12|^0.13",
-        "gsmanager-cloud/collections": "dev-main",
-        "gsmanager-cloud/container": "dev-main",
-        "gsmanager-cloud/contracts": "dev-main",
-        "gsmanager-cloud/macroable": "dev-main",
-        "gsmanager-cloud/support": "dev-main",
-        "gsmanager-cloud/serializable-closure": "^1.3|^2.0"
+        "gsmanager-cloud/collections": "v1",
+        "gsmanager-cloud/container": "v1",
+        "gsmanager-cloud/contracts": "v1",
+        "gsmanager-cloud/macroable": "v1",
+        "gsmanager-cloud/support": "v1",
+        "gsmanager-cloud/serializable-closure": "^1"
     },
     "autoload": {
         "psr-4": {
@@ -40,9 +40,9 @@
         "fakerphp/faker": "Required to use the eloquent factory builder (^1.24).",
         "gsmanager-cloud/console": "Required to use the database commands (^1).",
         "gsmanager-cloud/events": "Required to use the observers with Eloquent (^1).",
-        "gsmanager-cloud/filesystem": "Required to use the migrations (dev-main).",
-        "gsmanager-cloud/http": "Required to convert Eloquent models to API resources (dev-main).",
-        "gsmanager-cloud/pagination": "Required to paginate the result set (dev-main).",
+        "gsmanager-cloud/filesystem": "Required to use the migrations (v1).",
+        "gsmanager-cloud/http": "Required to convert Eloquent models to API resources (v1).",
+        "gsmanager-cloud/pagination": "Required to paginate the result set (v1).",
         "symfony/finder": "Required to use Eloquent model factories (^7.2)."
     },
     "config": {

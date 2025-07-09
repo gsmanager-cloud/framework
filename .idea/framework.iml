@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager" isTestSource="false" packagePrefix="GSManager\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Auth/" isTestSource="false" packagePrefix="GSManager\Auth\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Broadcasting/" isTestSource="false" packagePrefix="GSManager\Broadcasting\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Bus/" isTestSource="false" packagePrefix="GSManager\Bus\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Cache/" isTestSource="false" packagePrefix="GSManager\Cache\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Collections" isTestSource="false" packagePrefix="GSManager\Support\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Collections/" isTestSource="false" packagePrefix="GSManager\Support\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Concurrency/" isTestSource="false" packagePrefix="GSManager\Concurrency\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Conditionable" isTestSource="false" packagePrefix="GSManager\Support\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Conditionable/" isTestSource="false" packagePrefix="GSManager\Support\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Config/" isTestSource="false" packagePrefix="GSManager\Config\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Console/" isTestSource="false" packagePrefix="GSManager\Console\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Container/" isTestSource="false" packagePrefix="GSManager\Container\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Contracts/" isTestSource="false" packagePrefix="GSManager\Contracts\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Cookie/" isTestSource="false" packagePrefix="GSManager\Cookie\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Database/" isTestSource="false" packagePrefix="GSManager\Database\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Encryption/" isTestSource="false" packagePrefix="GSManager\Encryption\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Events/" isTestSource="false" packagePrefix="GSManager\Events\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Filesystem/" isTestSource="false" packagePrefix="GSManager\Filesystem\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Hashing/" isTestSource="false" packagePrefix="GSManager\Hashing\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Http/" isTestSource="false" packagePrefix="GSManager\Http\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Log/" isTestSource="false" packagePrefix="GSManager\Log\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Macroable" isTestSource="false" packagePrefix="GSManager\Support\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Macroable/" isTestSource="false" packagePrefix="GSManager\Support\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Mail/" isTestSource="false" packagePrefix="GSManager\Mail\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Notifications/" isTestSource="false" packagePrefix="GSManager\Notifications\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Pagination/" isTestSource="false" packagePrefix="GSManager\Pagination\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Pipeline/" isTestSource="false" packagePrefix="GSManager\Pipeline\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Process/" isTestSource="false" packagePrefix="GSManager\Process\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Queue/" isTestSource="false" packagePrefix="GSManager\Queue\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Redis/" isTestSource="false" packagePrefix="GSManager\Redis\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Routing/" isTestSource="false" packagePrefix="GSManager\Routing\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Session/" isTestSource="false" packagePrefix="GSManager\Session\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Support/" isTestSource="false" packagePrefix="GSManager\Support\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Testing/" isTestSource="false" packagePrefix="GSManager\Testing\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Translation/" isTestSource="false" packagePrefix="GSManager\Translation\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/Validation/" isTestSource="false" packagePrefix="GSManager\Validation\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/GSManager/View/" isTestSource="false" packagePrefix="GSManager\View\" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" packagePrefix="GSManager\Tests\" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

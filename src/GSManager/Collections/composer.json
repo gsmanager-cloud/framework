@@ -4,8 +4,8 @@
     "license": "MIT",
     "homepage": "https://gsmanager.ru",
     "support": {
-        "issues": "https://github.com/gsmanager/framework/issues",
-        "source": "https://github.com/gsmanager/framework"
+        "issues": "https://github.com/gsmanager-cloud/framework/issues",
+        "source": "https://github.com/gsmanager-cloud/framework"
     },
     "authors": [
         {
@@ -15,9 +15,9 @@
     ],
     "require": {
         "php": "^8.2",
-        "gsmanager-cloud/conditionable": "dev-main",
-        "gsmanager-cloud/contracts": "dev-main",
-        "gsmanager-cloud/macroable": "dev-main"
+        "gsmanager-cloud/conditionable": "v1",
+        "gsmanager-cloud/contracts": "v1",
+        "gsmanager-cloud/macroable": "v1"
     },
     "autoload": {
         "psr-4": {
@@ -34,7 +34,7 @@
         }
     },
     "suggest": {
-        "gsmanager-cloud/http": "Required to convert collections to API resources (dev-main).",
+        "gsmanager-cloud/http": "Required to convert collections to API resources (v1).",
         "symfony/var-dumper": "Required to use the dump method (^7.2)."
     },
     "config": {

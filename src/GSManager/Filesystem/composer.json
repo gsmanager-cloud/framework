@@ -4,8 +4,8 @@
     "license": "MIT",
     "homepage": "https://gsmanager.ru",
     "support": {
-        "issues": "https://github.com/gsmanager/framework/issues",
-        "source": "https://github.com/gsmanager/framework"
+        "issues": "https://github.com/gsmanager-cloud/framework/issues",
+        "source": "https://github.com/gsmanager-cloud/framework"
     },
     "authors": [
         {
@@ -15,10 +15,10 @@
     ],
     "require": {
         "php": "^8.2",
-        "gsmanager-cloud/collections": "dev-main",
-        "gsmanager-cloud/contracts": "dev-main",
-        "gsmanager-cloud/macroable": "dev-main",
-        "gsmanager-cloud/support": "dev-main",
+        "gsmanager-cloud/collections": "v1",
+        "gsmanager-cloud/contracts": "v1",
+        "gsmanager-cloud/macroable": "v1",
+        "gsmanager-cloud/support": "v1",
         "symfony/finder": "^7.2.0"
     },
     "autoload": {
@@ -38,7 +38,7 @@
         "ext-fileinfo": "Required to use the Filesystem class.",
         "ext-ftp": "Required to use the Flysystem FTP driver.",
         "ext-hash": "Required to use the Filesystem class.",
-        "gsmanager-cloud/http": "Required for handling uploaded files (dev-main).",
+        "gsmanager-cloud/http": "Required for handling uploaded files (v1).",
         "league/flysystem": "Required to use the Flysystem local driver (^3.25.1).",
         "league/flysystem-aws-s3-v3": "Required to use the Flysystem S3 driver (^3.25.1).",
         "league/flysystem-ftp": "Required to use the Flysystem FTP driver (^3.25.1).",

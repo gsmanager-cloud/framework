@@ -4,8 +4,8 @@
     "license": "MIT",
     "homepage": "https://gsmanager.ru",
     "support": {
-        "issues": "https://github.com/gsmanager/framework/issues",
-        "source": "https://github.com/gsmanager/framework"
+        "issues": "https://github.com/gsmanager-cloud/framework/issues",
+        "source": "https://github.com/gsmanager-cloud/framework"
     },
     "authors": [
         {
@@ -16,12 +16,12 @@
     "require": {
         "php": "^8.2",
         "ext-mbstring": "*",
-        "gsmanager-cloud/collections": "dev-main",
-        "gsmanager-cloud/contracts": "dev-main",
-        "gsmanager-cloud/macroable": "dev-main",
-        "gsmanager-cloud/support": "dev-main",
-        "gsmanager-cloud/view": "dev-main",
-        "gsmanager-cloud/prompts": "dev-main",
+        "gsmanager-cloud/collections": "v1",
+        "gsmanager-cloud/contracts": "v1",
+        "gsmanager-cloud/macroable": "v1",
+        "gsmanager-cloud/support": "v1",
+        "gsmanager-cloud/view": "v1",
+        "gsmanager-cloud/prompts": "v1",
         "nunomaduro/termwind": "^2.0",
         "symfony/console": "^7.2.0",
         "symfony/polyfill-php83": "^1.31",
@@ -43,8 +43,8 @@
         "guzzlehttp/guzzle": "Required to use the ping methods on schedules (^7.8).",
         "gsmanager-cloud/bus": "Required to use the scheduled job dispatcher (^1).",
         "gsmanager-cloud/container": "Required to use the scheduler (^1).",
-        "gsmanager-cloud/filesystem": "Required to use the generator command (dev-main).",
-        "gsmanager-cloud/queue": "Required to use closures for scheduled jobs (dev-main)."
+        "gsmanager-cloud/filesystem": "Required to use the generator command (v1).",
+        "gsmanager-cloud/queue": "Required to use closures for scheduled jobs (v1)."
     },
     "config": {
         "sort-packages": true

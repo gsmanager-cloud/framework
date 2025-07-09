@@ -4,8 +4,8 @@
     "license": "MIT",
     "homepage": "https://gsmanager.ru",
     "support": {
-        "issues": "https://github.com/gsmanager/framework/issues",
-        "source": "https://github.com/gsmanager/framework"
+        "issues": "https://github.com/gsmanager-cloud/framework/issues",
+        "source": "https://github.com/gsmanager-cloud/framework"
     },
     "authors": [
         {
@@ -19,12 +19,12 @@
         "ext-mbstring": "*",
         "brick/math": "^0.11|^0.12|^0.13",
         "egulias/email-validator": "^3.2.5|^4.0",
-        "gsmanager-cloud/collections": "dev-main",
-        "gsmanager-cloud/container": "dev-main",
-        "gsmanager-cloud/contracts": "dev-main",
-        "gsmanager-cloud/macroable": "dev-main",
-        "gsmanager-cloud/support": "dev-main",
-        "gsmanager-cloud/translation": "dev-main",
+        "gsmanager-cloud/collections": "v1",
+        "gsmanager-cloud/container": "v1",
+        "gsmanager-cloud/contracts": "v1",
+        "gsmanager-cloud/macroable": "v1",
+        "gsmanager-cloud/support": "v1",
+        "gsmanager-cloud/translation": "v1",
         "symfony/http-foundation": "^7.2",
         "symfony/mime": "^7.2"
     },
@@ -39,7 +39,7 @@
         }
     },
     "suggest": {
-        "gsmanager-cloud/database": "Required to use the database presence verifier (dev-main).",
+        "gsmanager-cloud/database": "Required to use the database presence verifier (v1).",
         "ramsey/uuid": "Required to use Validator::validateUuid() (^4.7)."
     },
     "config": {
