@@ -1,0 +1,40 @@
+{
+    "name": "gsmanager-cloud/cookie",
+    "description": "The GSManager Cookie package.",
+    "license": "MIT",
+    "homepage": "https://gsmanager.ru",
+    "support": {
+        "issues": "https://github.com/gsmanager/framework/issues",
+        "source": "https://github.com/gsmanager/framework"
+    },
+    "authors": [
+        {
+            "name": "Sergey Tyuhtin",
+            "email": "info@gsmanager.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "ext-hash": "*",
+        "gsmanager-cloud/collections": "dev-main",
+        "gsmanager-cloud/contracts": "dev-main",
+        "gsmanager-cloud/macroable": "dev-main",
+        "gsmanager-cloud/support": "dev-main",
+        "symfony/http-foundation": "^7.2.0",
+        "symfony/http-kernel": "^7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GSManager\\Cookie\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}

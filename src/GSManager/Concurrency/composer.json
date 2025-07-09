@@ -1,0 +1,38 @@
+{
+    "name": "gsmanager-cloud/concurrency",
+    "description": "The GSManager Concurrency package.",
+    "license": "MIT",
+    "homepage": "https://gsmanager.ru",
+    "support": {
+        "issues": "https://github.com/gsmanager/framework/issues",
+        "source": "https://github.com/gsmanager/framework"
+    },
+    "authors": [
+        {
+            "name": "Sergey Tyuhtin",
+            "email": "info@gsmanager.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "gsmanager-cloud/console": "dev-main",
+        "gsmanager-cloud/contracts": "dev-main",
+        "gsmanager-cloud/process": "dev-main",
+        "gsmanager-cloud/support": "dev-main",
+        "gsmanager-cloud/serializable-closure": "^1.3|^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GSManager\\Concurrency\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}

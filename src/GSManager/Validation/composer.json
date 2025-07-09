@@ -1,0 +1,49 @@
+{
+    "name": "gsmanager-cloud/validation",
+    "description": "The GSManager Validation package.",
+    "license": "MIT",
+    "homepage": "https://gsmanager.ru",
+    "support": {
+        "issues": "https://github.com/gsmanager/framework/issues",
+        "source": "https://github.com/gsmanager/framework"
+    },
+    "authors": [
+        {
+            "name": "Sergey Tyuhtin",
+            "email": "info@gsmanager.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "ext-filter": "*",
+        "ext-mbstring": "*",
+        "brick/math": "^0.11|^0.12|^0.13",
+        "egulias/email-validator": "^3.2.5|^4.0",
+        "gsmanager-cloud/collections": "dev-main",
+        "gsmanager-cloud/container": "dev-main",
+        "gsmanager-cloud/contracts": "dev-main",
+        "gsmanager-cloud/macroable": "dev-main",
+        "gsmanager-cloud/support": "dev-main",
+        "gsmanager-cloud/translation": "dev-main",
+        "symfony/http-foundation": "^7.2",
+        "symfony/mime": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "GSManager\\Validation\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "suggest": {
+        "gsmanager-cloud/database": "Required to use the database presence verifier (dev-main).",
+        "ramsey/uuid": "Required to use Validator::validateUuid() (^4.7)."
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}

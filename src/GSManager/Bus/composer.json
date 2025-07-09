@@ -1,0 +1,40 @@
+{
+    "name": "gsmanager-cloud/bus",
+    "description": "The GSManager Bus package.",
+    "license": "MIT",
+    "homepage": "https://gsmanager.ru",
+    "support": {
+        "issues": "https://github.com/gsmanager/framework/issues",
+        "source": "https://github.com/gsmanager/framework"
+    },
+    "authors": [
+        {
+            "name": "Sergey Tyuhtin",
+            "email": "info@gsmanager.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "gsmanager-cloud/collections": "dev-main",
+        "gsmanager-cloud/contracts": "dev-main",
+        "gsmanager-cloud/pipeline": "dev-main",
+        "gsmanager-cloud/support": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "GSManager\\Bus\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "suggest": {
+        "gsmanager-cloud/queue": "Required to use closures when chaining jobs (^1)."
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}

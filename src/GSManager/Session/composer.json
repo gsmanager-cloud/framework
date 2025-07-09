@@ -1,0 +1,44 @@
+{
+    "name": "gsmanager-cloud/session",
+    "description": "The GSManager Session package.",
+    "license": "MIT",
+    "homepage": "https://gsmanager.ru",
+    "support": {
+        "issues": "https://github.com/gsmanager/framework/issues",
+        "source": "https://github.com/gsmanager/framework"
+    },
+    "authors": [
+        {
+            "name": "Sergey Tyuhtin",
+            "email": "info@gsmanager.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "ext-ctype": "*",
+        "ext-session": "*",
+        "gsmanager-cloud/collections": "dev-main",
+        "gsmanager-cloud/contracts": "dev-main",
+        "gsmanager-cloud/filesystem": "dev-main",
+        "gsmanager-cloud/support": "dev-main",
+        "symfony/finder": "^7.2.0",
+        "symfony/http-foundation": "^7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GSManager\\Session\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "suggest": {
+        "gsmanager-cloud/console": "Required to use the session:table command (dev-main)."
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}

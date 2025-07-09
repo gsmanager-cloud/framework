@@ -1,0 +1,45 @@
+{
+    "name": "gsmanager-cloud/auth",
+    "description": "The GSManager Auth package.",
+    "license": "MIT",
+    "homepage": "https://gsmanager.ru",
+    "support": {
+        "issues": "https://github.com/gsmanager/framework/issues",
+        "source": "https://github.com/gsmanager/framework"
+    },
+    "authors": [
+        {
+            "name": "Sergey Tyuhtin",
+            "email": "info@gsmanager.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "ext-hash": "*",
+        "gsmanager-cloud/collections": "dev-main",
+        "gsmanager-cloud/contracts": "dev-main",
+        "gsmanager-cloud/http": "dev-main",
+        "gsmanager-cloud/macroable": "dev-main",
+        "gsmanager-cloud/queue": "dev-main",
+        "gsmanager-cloud/support": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "GSManager\\Auth\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "suggest": {
+        "gsmanager-cloud/console": "Required to use the auth:clear-resets command (^1).",
+        "gsmanager-cloud/queue": "Required to fire login / logout events (^1).",
+        "gsmanager-cloud/session": "Required to use the session based guard (^1)."
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,35 @@
+{
+    "name": "gsmanager-cloud/config",
+    "description": "The GSManager Config package.",
+    "license": "MIT",
+    "homepage": "https://gsmanager.ru",
+    "support": {
+        "issues": "https://github.com/gsmanager/framework/issues",
+        "source": "https://github.com/gsmanager/framework"
+    },
+    "authors": [
+        {
+            "name": "Sergey Tyuhtin",
+            "email": "info@gsmanager.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "gsmanager-cloud/collections": "dev-main",
+        "gsmanager-cloud/contracts": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "GSManager\\Config\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}

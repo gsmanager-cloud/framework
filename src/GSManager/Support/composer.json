@@ -1,0 +1,64 @@
+{
+    "name": "gsmanager-cloud/support",
+    "description": "The GSManager Support package.",
+    "license": "MIT",
+    "homepage": "https://gsmanager.ru",
+    "support": {
+        "issues": "https://github.com/gsmanager/framework/issues",
+        "source": "https://github.com/gsmanager/framework"
+    },
+    "authors": [
+        {
+            "name": "Sergey Tyuhtin",
+            "email": "info@gsmanager.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "ext-ctype": "*",
+        "ext-filter": "*",
+        "ext-mbstring": "*",
+        "doctrine/inflector": "^2.0",
+        "gsmanager-cloud/collections": "dev-main",
+        "gsmanager-cloud/conditionable": "dev-main",
+        "gsmanager-cloud/contracts": "dev-main",
+        "gsmanager-cloud/macroable": "dev-main",
+        "nesbot/carbon": "^3.8.4",
+        "voku/portable-ascii": "^2.0.2"
+    },
+    "conflict": {
+        "tightenco/collect": "<5.5.33"
+    },
+    "replace": {
+        "spatie/once": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "GSManager\\Support\\": ""
+        },
+        "files": [
+            "functions.php",
+            "helpers.php"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "suggest": {
+        "gsmanager-cloud/filesystem": "Required to use the Composer class (dev-main).",
+        "gsmanager-cloud/serializable-closure": "Required to use the once function (^1.3|^2.0).",
+        "league/commonmark": "Required to use Str::markdown() and Stringable::markdown() (^2.7).",
+        "league/uri": "Required to use the Uri class (^7.5.1).",
+        "ramsey/uuid": "Required to use Str::uuid() (^4.7).",
+        "symfony/process": "Required to use the Composer class (^7.2).",
+        "symfony/uid": "Required to use Str::ulid() (^7.2).",
+        "symfony/var-dumper": "Required to use the dd function (^7.2).",
+        "vlucas/phpdotenv": "Required to use the Env class and env helper (^5.6.1)."
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}

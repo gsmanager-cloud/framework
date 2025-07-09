@@ -1,0 +1,53 @@
+<?php
+
+namespace {{ namespace }};
+
+use GSManager\Bus\Queueable;
+use GSManager\Contracts\Queue\ShouldQueue;
+use GSManager\Mail\Mailable;
+use GSManager\Mail\Mailables\Content;
+use GSManager\Mail\Mailables\Envelope;
+use GSManager\Queue\SerializesModels;
+
+class {{ class }} extends Mailable
+{
+    use Queueable, SerializesModels;
+
+    /**
+     * Create a new message instance.
+     */
+    public function __construct()
+    {
+        //
+    }
+
+    /**
+     * Get the message envelope.
+     */
+    public function envelope(): Envelope
+    {
+        return new Envelope(
+            subject: '{{ subject }}',
+        );
+    }
+
+    /**
+     * Get the message content definition.
+     */
+    public function content(): Content
+    {
+        return new Content(
+            view: '{{ view }}',
+        );
+    }
+
+    /**
+     * Get the attachments for the message.
+     *
+     * @return array<int, \GSManager\Mail\Mailables\Attachment>
+     */
+    public function attachments(): array
+    {
+        return [];
+    }
+}

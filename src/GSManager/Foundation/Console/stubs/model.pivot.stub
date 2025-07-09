@@ -1,0 +1,10 @@
+<?php
+
+namespace {{ namespace }};
+
+use GSManager\Database\Eloquent\Relations\Pivot;
+
+class {{ class }} extends Pivot
+{
+    //
+}

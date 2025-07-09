@@ -1,0 +1,50 @@
+{
+    "name": "gsmanager-cloud/mail",
+    "description": "The GSManager Mail package.",
+    "license": "MIT",
+    "homepage": "https://gsmanager.ru",
+    "support": {
+        "issues": "https://github.com/gsmanager/framework/issues",
+        "source": "https://github.com/gsmanager/framework"
+    },
+    "authors": [
+        {
+            "name": "Sergey Tyuhtin",
+            "email": "info@gsmanager.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "gsmanager-cloud/collections": "dev-main",
+        "gsmanager-cloud/container": "dev-main",
+        "gsmanager-cloud/contracts": "dev-main",
+        "gsmanager-cloud/macroable": "dev-main",
+        "gsmanager-cloud/support": "dev-main",
+        "league/commonmark": "^2.7",
+        "psr/log": "^1.0|^2.0|^3.0",
+        "symfony/mailer": "^7.2.0",
+        "tijsverkoyen/css-to-inline-styles": "^2.2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "GSManager\\Mail\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "suggest": {
+        "aws/aws-sdk-php": "Required to use the SES mail driver (^3.322.9).",
+        "gsmanager-cloud/http": "Required to create an attachment from an UploadedFile instance (^1).",
+        "resend/resend-php": "Required to enable support for the Resend mail transport (^0.10.0).",
+        "symfony/http-client": "Required to use the Symfony API mail transports (^7.2).",
+        "symfony/mailgun-mailer": "Required to enable support for the Mailgun mail transport (^7.2).",
+        "symfony/postmark-mailer": "Required to enable support for the Postmark mail transport (^7.2)."
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}

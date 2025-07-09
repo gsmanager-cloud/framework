@@ -1,0 +1,45 @@
+{
+    "name": "gsmanager-cloud/notifications",
+    "description": "The GSManager Notifications package.",
+    "license": "MIT",
+    "homepage": "https://gsmanager.ru",
+    "support": {
+        "issues": "https://github.com/gsmanager/framework/issues",
+        "source": "https://github.com/gsmanager/framework"
+    },
+    "authors": [
+        {
+            "name": "Sergey Tyuhtin",
+            "email": "info@gsmanager.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "gsmanager-cloud/broadcasting": "dev-main",
+        "gsmanager-cloud/bus": "dev-main",
+        "gsmanager-cloud/collections": "dev-main",
+        "gsmanager-cloud/container": "dev-main",
+        "gsmanager-cloud/contracts": "dev-main",
+        "gsmanager-cloud/filesystem": "dev-main",
+        "gsmanager-cloud/mail": "dev-main",
+        "gsmanager-cloud/queue": "dev-main",
+        "gsmanager-cloud/support": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "GSManager\\Notifications\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "suggest": {
+        "gsmanager-cloud/database": "Required to use the database transport (dev-main)."
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}

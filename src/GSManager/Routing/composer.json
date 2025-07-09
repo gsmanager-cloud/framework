@@ -1,0 +1,54 @@
+{
+    "name": "gsmanager-cloud/routing",
+    "description": "The GSManager Routing package.",
+    "license": "MIT",
+    "homepage": "https://gsmanager.ru",
+    "support": {
+        "issues": "https://github.com/gsmanager/framework/issues",
+        "source": "https://github.com/gsmanager/framework"
+    },
+    "authors": [
+        {
+            "name": "Sergey Tyuhtin",
+            "email": "info@gsmanager.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "ext-filter": "*",
+        "ext-hash": "*",
+        "gsmanager-cloud/collections": "dev-main",
+        "gsmanager-cloud/container": "dev-main",
+        "gsmanager-cloud/contracts": "dev-main",
+        "gsmanager-cloud/http": "dev-main",
+        "gsmanager-cloud/macroable": "dev-main",
+        "gsmanager-cloud/pipeline": "dev-main",
+        "gsmanager-cloud/session": "dev-main",
+        "gsmanager-cloud/support": "dev-main",
+        "symfony/http-foundation": "^7.2.0",
+        "symfony/http-kernel": "^7.2.0",
+        "symfony/routing": "^7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GSManager\\Routing\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "suggest": {
+        "gsmanager-cloud/console": "Required to use the make commands (dev-main).",
+        "php-http/discovery": "Required to use PSR-7 bridging features (^1.15).",
+        "symfony/psr-http-message-bridge": "Required to use PSR-7 bridging features (^7.2)."
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "php-http/discovery": false
+        }
+    },
+    "minimum-stability": "dev"
+}

@@ -1,2 +1,2 @@
 # framework
-The GSManager Framework.
+FrameWork

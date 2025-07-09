@@ -1,0 +1,46 @@
+{
+    "name": "gsmanager-cloud/testing",
+    "description": "The GSManager Testing package.",
+    "license": "MIT",
+    "homepage": "https://gsmanager.ru",
+    "support": {
+        "issues": "https://github.com/gsmanager/framework/issues",
+        "source": "https://github.com/gsmanager/framework"
+    },
+    "authors": [
+        {
+            "name": "Sergey Tyuhtin",
+            "email": "info@gsmanager.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "ext-mbstring": "*",
+        "gsmanager-cloud/collections": "dev-main",
+        "gsmanager-cloud/contracts": "dev-main",
+        "gsmanager-cloud/macroable": "dev-main",
+        "gsmanager-cloud/support": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "GSManager\\Testing\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "suggest": {
+        "brianium/paratest": "Required to run tests in parallel (^7.0|^8.0).",
+        "gsmanager-cloud/console": "Required to assert console commands (dev-main).",
+        "gsmanager-cloud/database": "Required to assert databases (dev-main).",
+        "gsmanager-cloud/http": "Required to assert responses (dev-main).",
+        "mockery/mockery": "Required to use mocking (^1.6).",
+        "phpunit/phpunit": "Required to use assertions and run tests (^10.5.35|^11.5.3|^12.0.1)."
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}

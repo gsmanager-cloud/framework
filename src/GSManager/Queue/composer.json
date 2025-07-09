@@ -1,0 +1,54 @@
+{
+    "name": "gsmanager-cloud/queue",
+    "description": "The GSManager Queue package.",
+    "license": "MIT",
+    "homepage": "https://gsmanager.ru",
+    "support": {
+        "issues": "https://github.com/gsmanager/framework/issues",
+        "source": "https://github.com/gsmanager/framework"
+    },
+    "authors": [
+        {
+            "name": "Sergey Tyuhtin",
+            "email": "info@gsmanager.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "gsmanager-cloud/collections": "dev-main",
+        "gsmanager-cloud/console": "dev-main",
+        "gsmanager-cloud/container": "dev-main",
+        "gsmanager-cloud/contracts": "dev-main",
+        "gsmanager-cloud/database": "dev-main",
+        "gsmanager-cloud/filesystem": "dev-main",
+        "gsmanager-cloud/pipeline": "dev-main",
+        "gsmanager-cloud/support": "dev-main",
+        "gsmanager-cloud/serializable-closure": "^1.3|^2.0",
+        "ramsey/uuid": "^4.7",
+        "symfony/process": "^7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GSManager\\Queue\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "suggest": {
+        "ext-pdo": "Required to use the database queue worker.",
+        "ext-filter": "Required to use the SQS queue worker.",
+        "ext-mbstring": "Required to use the database failed job providers.",
+        "ext-pcntl": "Required to use all features of the queue worker.",
+        "ext-posix": "Required to use all features of the queue worker.",
+        "aws/aws-sdk-php": "Required to use the SQS queue driver and DynamoDb failed job storage (^3.322.9).",
+        "gsmanager-cloud/redis": "Required to use the Redis queue driver (^1).",
+        "pda/pheanstalk": "Required to use the Beanstalk queue driver (^5.0.6|^7.0.0)."
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,45 @@
+{
+    "name": "gsmanager-cloud/broadcasting",
+    "description": "The GSManager Broadcasting package.",
+    "license": "MIT",
+    "homepage": "https://gsmanager.ru",
+    "support": {
+        "issues": "https://github.com/gsmanager/framework/issues",
+        "source": "https://github.com/gsmanager/framework"
+    },
+    "authors": [
+        {
+            "name": "Sergey Tyuhtin",
+            "email": "taylor@gsmanager.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "psr/log": "^1.0|^2.0|^3.0",
+        "gsmanager-cloud/bus": "dev-main",
+        "gsmanager-cloud/collections": "dev-main",
+        "gsmanager-cloud/container": "dev-main",
+        "gsmanager-cloud/contracts": "dev-main",
+        "gsmanager-cloud/queue": "dev-main",
+        "gsmanager-cloud/support": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "GSManager\\Broadcasting\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "suggest": {
+        "ext-hash": "Required to use the Ably and Pusher broadcast drivers.",
+        "ably/ably-php": "Required to use the Ably broadcast driver (^1.0).",
+        "pusher/pusher-php-server": "Required to use the Pusher broadcast driver (^6.0|^7.0)."
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}

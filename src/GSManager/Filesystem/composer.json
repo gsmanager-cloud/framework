@@ -1,0 +1,54 @@
+{
+    "name": "gsmanager-cloud/filesystem",
+    "description": "The GSManager Filesystem package.",
+    "license": "MIT",
+    "homepage": "https://gsmanager.ru",
+    "support": {
+        "issues": "https://github.com/gsmanager/framework/issues",
+        "source": "https://github.com/gsmanager/framework"
+    },
+    "authors": [
+        {
+            "name": "Sergey Tyuhtin",
+            "email": "info@gsmanager.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "gsmanager-cloud/collections": "dev-main",
+        "gsmanager-cloud/contracts": "dev-main",
+        "gsmanager-cloud/macroable": "dev-main",
+        "gsmanager-cloud/support": "dev-main",
+        "symfony/finder": "^7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GSManager\\Filesystem\\": ""
+        },
+        "files": [
+            "functions.php"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "suggest": {
+        "ext-fileinfo": "Required to use the Filesystem class.",
+        "ext-ftp": "Required to use the Flysystem FTP driver.",
+        "ext-hash": "Required to use the Filesystem class.",
+        "gsmanager-cloud/http": "Required for handling uploaded files (dev-main).",
+        "league/flysystem": "Required to use the Flysystem local driver (^3.25.1).",
+        "league/flysystem-aws-s3-v3": "Required to use the Flysystem S3 driver (^3.25.1).",
+        "league/flysystem-ftp": "Required to use the Flysystem FTP driver (^3.25.1).",
+        "league/flysystem-sftp-v3": "Required to use the Flysystem SFTP driver (^3.25.1).",
+        "psr/http-message": "Required to allow Storage::put to accept a StreamInterface (^1.0).",
+        "symfony/filesystem": "Required to enable support for relative symbolic links (^7.2).",
+        "symfony/mime": "Required to enable support for guessing extensions (^7.2)."
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}

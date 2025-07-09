@@ -1,0 +1,48 @@
+{
+    "name": "gsmanager-cloud/http",
+    "description": "The GSManager Http package.",
+    "license": "MIT",
+    "homepage": "https://gsmanager.ru",
+    "support": {
+        "issues": "https://github.com/gsmanager/framework/issues",
+        "source": "https://github.com/gsmanager/framework"
+    },
+    "authors": [
+        {
+            "name": "Sergey Tyuhtin",
+            "email": "info@gsmanager.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "ext-filter": "*",
+        "fruitcake/php-cors": "^1.3",
+        "guzzlehttp/guzzle": "^7.8.2",
+        "guzzlehttp/uri-template": "^1.0",
+        "gsmanager-cloud/collections": "dev-main",
+        "gsmanager-cloud/macroable": "dev-main",
+        "gsmanager-cloud/session": "dev-main",
+        "gsmanager-cloud/support": "dev-main",
+        "symfony/http-foundation": "^7.2.0",
+        "symfony/http-kernel": "^7.2.0",
+        "symfony/polyfill-php83": "^1.31",
+        "symfony/mime": "^7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GSManager\\Http\\": ""
+        }
+    },
+    "suggest": {
+        "ext-gd": "Required to use GSManager\\Http\\Testing\\FileFactory::image()."
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
